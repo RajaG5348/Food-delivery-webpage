@@ -1,0 +1,87 @@
+.pwd-box {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5rem;
+}
+
+.pwd-box .container {
+  width: 400px;
+  /* background-color: aliceblue; */
+  padding: 20px;
+}
+
+.pwd-box h2 {
+  text-align: center;
+  font-family: marck script;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: rgb(2,0,36);
+}
+
+.pwd-box p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pwd-box label {
+  display: block;
+  margin: 20px 0 10px;
+}
+
+.pwd-box input {
+  width: 100%;
+  background: rgb(224, 224, 230);
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.pwd-box button {
+  width: 90%;
+  padding: 8px;
+  margin: 0 5% 20px;
+  background: none;
+  border: none;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 62, 29, 0.9641106442577031) 47%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s all ease;
+}
+
+.pwd-box button:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+.pwd-box .login__page {
+  text-align: center;
+  color: rgb(131, 58, 180);
+  transition: 0.3s all ease;
+}
+.pwd-box .login__page a{
+  text-decoration: none;
+  color: rgb(131, 58, 180);
+  margin: 0 5px;
+}
+
+.pwd-box .login__page:hover{
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 450px) {
+  .pwd-box .container {
+    width: 300px;
+  }
+
+
+}

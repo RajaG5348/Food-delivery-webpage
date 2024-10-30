@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* layout */
+
+.header .bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100 - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.938rem;
+  color: #fff;
+  transition: 0.5s all ease;
+}
+
+.nav ul li a:hover{
+  color: rgb(216, 82, 58);
+  font-weight: 800;
+}
+
+
+.nav {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-right-radius: 50px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 237, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
+
+.nav .nav_logo {
+  color: #0e2431;
+  margin-left: 50px;
+}
+
+.header .nav_toggle {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: #0e2431;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.header .nav_toggle a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.header .nav_toggle a:hover {
+  color: tomato;
+}
+
+.header .user__icon {
+  padding: 0 10px;
+}
+
+.cart__count {
+  font-size: 14px;
+  top: 0;
+  left: 25px;
+  background: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.header .nav_toggle .menu__icon {
+  display: none;
+}
+
+.nav_menu .nav_list {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav .nav_menu {
+    position: fixed;
+    top: 7rem;
+    left: -100%;
+    background: #0e2431;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+  }
+  .nav .nav_items {
+    margin-bottom: 2rem;
+  }
+  .nav .nav_link {
+    color: #fff;
+  }
+  .nav .nav_menu.show {
+    left: 0;
+  }
+
+  .nav .nav_menu .nav_list {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .header .nav_toggle .menu__icon {
+    display: block;
+  }
+}

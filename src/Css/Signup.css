@@ -1,0 +1,123 @@
+.signup-box {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 8rem;
+}
+.signup-box .container {
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.signup-box h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 26px;
+  background: rgb(252, 70, 70);
+  background: linear-gradient(
+    35deg,
+    rgba(252, 70, 70, 1) 13%,
+    rgba(63, 94, 251, 0.9943019943019943) 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signup-box .signup-links {
+  text-align: center;
+  margin: 10px 0 ;
+}
+
+.signup-box .signup-links a {
+  margin: 0 15px;
+  color: #72008c;
+  font-size: 26px;
+  transition: 0.5s all ease;
+}
+
+.signup-box .signup-links a:hover {
+  background: linear-gradient(
+    35deg,
+    rgba(252, 70, 70, 1) 13%,
+    rgba(63, 94, 251, 0.9943019943019943) 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.signup-box p{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.signup-box .input-box{
+  margin: 15px 0;
+  background: rgb(224, 224, 230);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+
+.signup-box .input-box input{
+  width: 80%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0px  10px;
+}
+
+.signup-box .input-box input::placeholder{
+  text-transform: capitalize;
+  color: rgb(130, 132, 133);
+}
+
+.signup-box button{
+  width: 100%;
+  background: none;
+  border: none;
+  background: linear-gradient(
+    35deg,
+    rgba(252, 70, 70, 1) 13%,
+    rgba(63, 94, 251, 0.9943019943019943) 80%
+  );
+  padding: 5px;
+  color: #fff;
+  border-radius: 3px;
+  margin: 10px 0;
+  transition: 0.3s all;
+}
+
+.signup-box button:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.signup-box .login__page {
+  margin: 10px ;
+}
+
+.signup-box .login__page a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup-box .login__page a span{
+  font-family: caveat;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.signup-box .login__page a span:hover{
+  background: rgb(252, 70, 70);
+  background: linear-gradient(
+    35deg,
+    rgba(252, 70, 70, 1) 13%,
+    rgba(63, 94, 251, 0.9943019943019943) 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

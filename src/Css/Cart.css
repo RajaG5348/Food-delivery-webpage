@@ -1,0 +1,138 @@
+.cart__box{
+    display: grid;
+    place-items: center;
+    margin: 10rem 50px;
+    border: 1px solid #d4d5d9;
+    padding: 30px 0;
+}
+.cart__box .cart__img{
+    display: flex;
+    align-items: center;
+}
+
+.cart__box .cart__img h4{
+    text-transform: capitalize;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart__col{
+    width: 450px;
+    border: 1px solid #d4d5d9;
+    padding: 30px;
+}
+
+.cart__box .cart__container{
+    display: grid;
+    grid-template-columns: 45% 15% 10%;
+    gap: 30px;
+    align-items: center;
+    margin: 20px 0 ;
+    padding: 20px 0;
+}
+
+.cart__box .cart__container .cart__img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart__box .cart__container .cart__img img{
+    width: 20px;
+}
+
+.cart__box .cart__btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.cart__box .cart__btn button{
+    background: none;
+    border: none;
+    padding:0  5px ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cart__box .cart__btn button:first-child{
+    color: #cac8c8;
+}
+
+.cart__box .cart__btn button:last-child{
+    color: #60b246;
+}
+
+.cart__box .cart__btn button:hover{
+    transform: scale(1.05);
+}
+
+
+.cart__box .cart__price{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart__box .cart__price span i{
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+.cart__box .cart__price span i:hover{
+    cursor: pointer;
+    color: rgb(245, 95, 69);
+}
+.cart__box .cart__total h5{
+    margin: 20px 10px 50px  ;
+    font-weight: 400;
+}
+.cart__box .cart__total .cart__amt{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    margin-right: 65px;
+}
+.cart__box .cart__amt h6{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.cart__box .cart__amt p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width : 550px) {
+    
+    .cart__box .cart__img{
+        flex-direction: column;
+    }
+
+    .cart__box .cart__col{
+        border: none;
+        width: 350px;
+    }
+    
+    
+}
+
+@media screen  and (max-width :450px){
+
+    .cart__box {
+        border: none;
+    }
+
+
+    .cart__box .cart__col {
+        width: 250px;
+    }
+
+    .cart__box .cart__container{
+        grid-template-columns: 20% 15% 10%;
+    }
+}
+

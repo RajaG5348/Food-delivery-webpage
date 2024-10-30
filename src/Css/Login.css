@@ -1,0 +1,86 @@
+.Login-box {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5rem;
+}
+
+.Login-box .container {
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  /* background: #fff; */
+}
+
+.Login-box h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Login-box p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.Login-box label {
+  display: block;
+  font-size: 14px;
+  background: rgb(63,94,251);
+  background: linear-gradient(35deg, rgba(63,94,251,0.9943019943019943) 50%, rgba(252,70,70,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0 5px;
+}
+.Login-box input{
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgb(224, 224, 230);
+  border-radius: 3px;
+  padding: 10px;
+
+}
+
+.Login-box button{
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  background: rgb(63,94,251);
+  background: linear-gradient(35deg, rgba(63,94,251,0.9943019943019943) 50%, rgba(252,70,70,1) 100%);
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.3s all ease;
+  text-transform: capitalize;
+
+}
+.Login-box button:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.Login-box a{
+  display: block;
+  text-decoration: none;
+background: linear-gradient(35deg, rgba(63,94,251,0.9943019943019943) 50%, rgba(252,70,70,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px 0;
+  transition: 0.3s all ease;
+
+}
+.Login-box a:hover{
+  transform: scale(1.02);
+}
+
+@media screen and (max-width:370px) {
+  .Login-box .container{
+    width: 250px;
+  }
+}
