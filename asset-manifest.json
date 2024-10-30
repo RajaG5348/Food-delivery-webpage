@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Food-delivery-webpage/static/css/main.66967e23.css",
+    "main.js": "/Food-delivery-webpage/static/js/main.ade9d775.js",
+    "static/media/Hero.png": "/Food-delivery-webpage/static/media/Hero.5e6ede951b31d4608121.png",
+    "static/media/img4.png": "/Food-delivery-webpage/static/media/img4.9f31bf3b81dc78acaa18.png",
+    "static/media/img3.png": "/Food-delivery-webpage/static/media/img3.d34b6b62904d844d6432.png",
+    "static/media/img2.png": "/Food-delivery-webpage/static/media/img2.a2b6b8a159db54ae4e71.png",
+    "static/media/home__img1.png": "/Food-delivery-webpage/static/media/home__img1.28ed8bdf2841ab8731b7.png",
+    "static/media/img2.jpg": "/Food-delivery-webpage/static/media/img2.1ec82889d486aaee3ac0.jpg",
+    "static/media/img3.jpg": "/Food-delivery-webpage/static/media/img3.82258146d114496e3041.jpg",
+    "static/media/img5.png": "/Food-delivery-webpage/static/media/img5.c4c85a2b433665d58601.png",
+    "static/media/img5.jpg": "/Food-delivery-webpage/static/media/img5.fd3cbce9ee7c977d8fa6.jpg",
+    "static/media/riceImg3.jpg": "/Food-delivery-webpage/static/media/riceImg3.36299d43cb2402335f6b.jpg",
+    "static/media/img4.jpg": "/Food-delivery-webpage/static/media/img4.ec9ee184fc353b6300aa.jpg",
+    "static/media/riceImg5.jpg": "/Food-delivery-webpage/static/media/riceImg5.da0ff7b2b8b0a32d8db8.jpg",
+    "static/media/img8.jpg": "/Food-delivery-webpage/static/media/img8.d4dcf14b79276648e587.jpg",
+    "static/media/img1.jpg": "/Food-delivery-webpage/static/media/img1.3b52424c3e5e077ffec7.jpg",
+    "static/media/Mom kitchen logo.png": "/Food-delivery-webpage/static/media/Mom kitchen logo.b95a3257d59bc9a1f681.png",
+    "static/media/riceImg4.jpg": "/Food-delivery-webpage/static/media/riceImg4.f4d0f2d79b27a5a240fb.jpg",
+    "static/media/img7.jpg": "/Food-delivery-webpage/static/media/img7.631789c7f55cd7653df1.jpg",
+    "static/media/riceImg1.jpg": "/Food-delivery-webpage/static/media/riceImg1.a07206f6fd733ca551cd.jpg",
+    "static/media/img6.jpg": "/Food-delivery-webpage/static/media/img6.136e4a692d8601198411.jpg",
+    "static/media/home__img2.png": "/Food-delivery-webpage/static/media/home__img2.c69d50fae21b6275e6e5.png",
+    "static/media/img1.png": "/Food-delivery-webpage/static/media/img1.b0f8aadd639c4b8d4ca4.png",
+    "static/media/riceImg2.jpg": "/Food-delivery-webpage/static/media/riceImg2.75eb65f429069cacf157.jpg",
+    "static/media/home__img3.png": "/Food-delivery-webpage/static/media/home__img3.0d5f256db60641ff27e8.png",
+    "static/media/offer2.avif": "/Food-delivery-webpage/static/media/offer2.c4657129a5dc931e6447.avif",
+    "static/media/offer.avif": "/Food-delivery-webpage/static/media/offer.d1f9492752f54c9e5b58.avif",
+    "index.html": "/Food-delivery-webpage/index.html",
+    "main.66967e23.css.map": "/Food-delivery-webpage/static/css/main.66967e23.css.map",
+    "main.ade9d775.js.map": "/Food-delivery-webpage/static/js/main.ade9d775.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66967e23.css",
+    "static/js/main.ade9d775.js"
+  ]
+}
